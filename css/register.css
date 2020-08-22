@@ -1,0 +1,131 @@
+/* 注册页面专有模块 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.style_red {
+    color: #c81623;
+}
+
+.style_green {
+    color: #40b83f;
+}
+
+button,
+input {
+    outline: none;
+    border: none;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+    padding-top: 15px;
+}
+
+section {
+    height: 520px;
+    margin-top: 20px;
+    border: 1px solid #cccccc;
+}
+
+.box-hd {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #cccccc;
+    background-color: #ececec;
+}
+
+.box-hd h4 {
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+.box-hd span {
+    float: right;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.box-bd {
+    width: 600px;
+    height: 440px;
+    margin: 40px 0 0 373px;
+}
+
+.box-bd ul li {
+    height: 36px;
+    margin-bottom: 20px;
+}
+
+.box-bd ul .safe {
+    height: 18px;
+    line-height: 18px;
+    padding-left: 186px;
+    color: #b2b2b2;
+}
+
+.safe span {
+    display: inline-block;
+    width: 36px;
+    height: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.safe .safe-low {
+    background-color: #de1111;
+}
+
+.safe .safe-medium {
+    background-color: #40b83f;
+}
+
+.safe .safe-hign {
+    background-color: #f79100;
+}
+
+.box-bd ul li label {
+    display: inline-block;
+    text-align: right;
+    width: 100px;
+}
+
+.box-bd ul li input[type="text"] {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #cccccc;
+    margin: 0 10px;
+}
+
+.box-bd ul li input[type="submit"] {
+    width: 200px;
+    height: 34px;
+    margin-left: 130px;
+    background-color: #c81623;
+    color: #ffffff;
+}
+
+.agree {
+    padding: 20px 0 0 127px;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer p:first-child {
+    margin-bottom: 15px;
+}

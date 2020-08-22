@@ -1,0 +1,132 @@
+/* 列表专有模块list */
+header {
+    position: relative;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    height: 35px;
+    padding: 4px 15px 0 15px;
+}
+
+.sk_list ul li {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sk_list ul li a {
+    padding: 0 30px;
+    color: #000000;
+}
+
+.sk_list ul li a:hover {
+    color: #e33333;
+}
+
+.sk_con ul li {
+    float: left;
+    font-size: 14px;
+}
+
+.sk_con ul li a {
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.sk_con ul li:last-child  a::after {
+    font-family: 'icomoon';
+    content: '\ea52';
+}
+
+/* 列表页主体 */
+.sk_bd ul {
+    width: 1212px;
+    margin-top: 25px;
+}
+
+.sk_bd ul li {
+    position: relative;
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin: 0 13px 13px 0;
+}
+
+.sk_bd ul li>a {
+    display: block;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #b1191a;
+}
+
+.sk_bd ul li>a p {
+    padding: 10px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.sk_goods_price ,.sk_goods_progress {
+    padding: 0 10px;
+}
+
+.sk_goods_price em {
+    font-size: 22px;
+    color: #e60012;
+}
+
+.sk_goods_price span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+
+.bar{
+    display: inline-block;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #b1191a;
+    border-radius: 6px;
+    padding: 1px;
+}
+
+.bar-in {
+    height: 100%;
+    width: 50%;
+    border-radius: 4px;
+    background-color: #f24349;
+    transition: all 0.3s;
+}
+
+.bar:hover .bar-in {
+    width: 87%;
+}
+
+.sk_goods_progress span {
+    color: #f24349;
+}
+
+.sk_goods_buy {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 288px;
+    height: 50px;
+    background-color: #b1191a;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.sk_goods_buy a {
+    color: #ffffff;
+}
+
+.sk_goods_buy a:hover {
+    color: #e33333;
+}
