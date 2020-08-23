@@ -130,3 +130,52 @@ header {
 .sk_goods_buy a:hover {
     color: #e33333;
 }
+
+/* 跳转行模块 */
+.jump {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.jump ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.jump ul li a {
+    display: inline-block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #d3d5d2;
+    text-align: center;
+    line-height: 36px;
+    background-color: #f5f7f5;
+    color: #000000;
+    font-size: 12px;
+}
+
+.jump .prev , .jump .next {
+    width: 70px;
+}
+
+.jump .current , .jump .ellipsis {
+    border: none;
+    background-color: #fff;
+}
+
+.jump ul input {
+    width: 45px;
+    height: 36px;
+    border: 1px solid #d3d5d2;
+    outline: none;
+}
+
+.jump ul button {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #d3d5d2;
+    background-color: #f5f7f5;
+    outline: none;
+    cursor: pointer;
+}
